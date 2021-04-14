@@ -2,6 +2,13 @@
 
 ## Rules
 
+1. The goal of the competition is to make probabilistic predictions of every game in the Euro 2020 tournament
+2. Entrants are free to use any data they wish, _provided it is publicly available_
+3. Predictions are to be made for all group games and _every possible_ knockout game
+4. Code and data used to generate the predictions must be included in a submission so that the judging panel can reproduce the results
+5. Participants are free to enter either as individuals or as teams
+6. Entrants may update their predictions at any point before the start of the tournament by submitting a new entry but only the most recent submission will be scored
+
 ## Scoring
 
 * Entries will be scored according to the log-score
