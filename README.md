@@ -25,6 +25,11 @@ where  `I(.)` is the indicator function and e.g. `p_team1_win` is the entrant's 
 * The individual scores for all games that actually take place will be summed to provide an overall score for the entry
 * The lower the score, the better (note the minus signs!)
 
+## Prizes
+
+* All winners will be invited to present their work at the 2021 RSS conference with reasonable expenses paid
+* All winner will receive an appopriately tacky trophy!
+
 ## Making a Submission
 
 An example submission file can be found here: [submission-template.csv](submission-template.csv)
