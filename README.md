@@ -32,7 +32,8 @@ where  `I(.)` is the indicator function and e.g. `p_team1_win` is the entrant's 
 
 ## Making a Submission
 
-An example submission file can be found here: [submission-template.csv](submission-template.csv)
+* An example submission file can be found here: [submission-template.csv](submission-template.csv)
+* Entrants should email a zip file to statisticsinsport@rss.org.uk that contains the submission file along with the code used to generate it that is clearly commented with the data used and where it can be obtained from
 
 ## Suggested Resources
 
