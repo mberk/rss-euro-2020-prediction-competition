@@ -28,7 +28,7 @@ where  `I(.)` is the indicator function and e.g. `p_team1_win` is the entrant's 
 ## Prizes
 
 * All winners will be invited to present their work at the 2021 RSS conference with reasonable expenses paid
-* All winner will receive an appopriately tacky trophy!
+* All winners will receive an appopriately tacky trophy!
 
 ## Making a Submission
 
