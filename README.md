@@ -8,6 +8,7 @@
 4. Code and data used to generate the predictions must be included in a submission so that the judging panel can reproduce the results
 5. Participants are free to enter either as individuals or as teams
 6. Entrants may update their predictions at any point before the start of the tournament by submitting a new entry but only the most recent submission will be scored
+7. The two entries with the best log-score ([see Scoring below](#scoring)) will win a prize ([see Prizes below](#prizes)) along with a third entry chosen by the judging panel based on the methodology used
 
 ## Scoring
 
