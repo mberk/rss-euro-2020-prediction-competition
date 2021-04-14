@@ -40,6 +40,11 @@ where  `I(.)` is the indicator function and e.g. `p_team1_win` is the entrant's 
 
 Any questions can be emailed to statisticsinsport@rss.org.uk or asked by creating a GitHub issue
 
+## Coming Soon
+
+* Jupyter notebook tutorial
+* Live leaderboard
+
 ## Suggested Resources
 
 ### StatsBomb Free Data
