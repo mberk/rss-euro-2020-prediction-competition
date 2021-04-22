@@ -2,13 +2,14 @@
 
 ## Rules
 
-1. The goal of the competition is to make probabilistic predictions of every game in the Euro 2020 tournament
-2. Entrants are free to use any data they wish, _provided it is publicly available_
+1. The goal of the competition is to make probabilistic predictions of the outcome of every game in the Euro 2020 tournament
+2. Entrants are free to use any data they wish, _provided it is publicly available_. This includes data scraped from public websites
 3. Predictions are to be made for all group games and _every possible_ knockout game
-4. Code and links to the data used to generate the predictions must be included in a submission so that the judging panel can reproduce the results
-5. Participants are free to enter either as individuals or as teams
-6. Entrants may update their predictions at any point before the start of the tournament by submitting a new entry but only the most recent submission will be scored
-7. The two entries with the best log-score ([see Scoring below](#scoring)) will win a prize ([see Prizes below](#prizes)) along with a third entry chosen by the judging panel based on the methodology used
+4. Submissions must be made before kick-off of the first game, 20:00 BST on 11th June 2021
+5. Code and data (or links to the data if the data sets are large) used to generate the predictions must be included in a submission so that the judging panel can reproduce the results
+6. Participants are free to enter either as individuals or as teams
+7. Entrants may update their predictions at any point before the start of the tournament by submitting a new entry but only the most recent submission will be scored
+8. The two entries with the best log-score ([see Scoring below](#scoring)) will win a prize ([see Prizes below](#prizes)) along with a third entry chosen by the judging panel based on the methodology used
 
 ## Scoring
 
@@ -33,8 +34,9 @@ where  `I(.)` is the indicator function and e.g. `p_team1_win` is the entrant's 
 ## Making a Submission
 
 * An example submission file can be found here: [submission-template.csv](submission-template.csv)
-* Entrants should email a zip file to statisticsinsport@rss.org.uk that contains the submission file along with the code used to generate it that is clearly commented with the data used and where it can be obtained from
-* When making a submission please indicate whether entering as a team or individual and your name or team name as appropriate
+* Entrants should email a zip file to statisticsinsport@rss.org.uk that contains the submission file along with the code and data used to generate it
+* If the zip file exceeds 10 megabytes then please do not submit the data but instead clearly comment the code with what data was used and where it can be obtained from. If the submission relies on scraped data and this is too large to be included then the scraping code must be included instead
+* When making a submission please indicate whether entering as a team or individual and your name or team name and team members' names as appropriate
 
 ## Questions?
 
