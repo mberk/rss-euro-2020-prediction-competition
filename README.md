@@ -38,13 +38,16 @@ where  `I(.)` is the indicator function and e.g. `p_team1_win` is the entrant's 
 * If the zip file exceeds 10 megabytes then please do not submit the data but instead clearly comment the code with what data was used and where it can be obtained from. If the submission relies on scraped data and this is too large to be included then the scraping code must be included instead
 * When making a submission please indicate whether entering as a team or individual and your name or team name and team members' names as appropriate
 
+## Getting Started
+
+To help you get started, we have added [an IPython Notebook](Euro%202020%20Predictions%20-%20Getting%20Started.ipynb) that describes fitting a model to a publicly available data set and producing some predictions in the correct format
+
 ## Questions?
 
 Any questions can be emailed to statisticsinsport@rss.org.uk or asked by creating a GitHub issue
 
 ## Coming Soon
 
-* Jupyter notebook tutorial
 * Live leaderboard
 
 ## Suggested Resources
