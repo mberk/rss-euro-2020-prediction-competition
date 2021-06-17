@@ -1,5 +1,7 @@
 # Welcome to the RSS Euro 2020 Prediction Competition!
 
+# Entries are now closed! The live leaderboard can be viewed [here](leaderboard.csv)
+
 ## Rules
 
 1. The goal of the competition is to make probabilistic predictions of the outcome of every game in the Euro 2020 tournament
@@ -45,10 +47,6 @@ To help you get started, we have added [an IPython Notebook](Euro%202020%20Predi
 ## Questions?
 
 Any questions can be emailed to statisticsinsport@rss.org.uk or asked by creating a GitHub issue
-
-## Coming Soon
-
-* Live leaderboard
 
 ## Suggested Resources
 
