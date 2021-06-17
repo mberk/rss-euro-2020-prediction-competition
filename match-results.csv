@@ -1,0 +1,16 @@
+team1_name,team2_name,Group,team1_win,draw,team2_win
+Turkey,Italy,A,0,0,1
+Wales,Switzerland,A,0,1,0
+Denmark,Finland,B,0,0,1
+Belgium,Russia,B,1,0,0
+England,Croatia,D,1,0,0
+Austria,North Macedonia,C,1,0,0
+Netherlands,Ukraine,C,1,0,0
+Scotland,Czech Republic,D,0,0,1
+Poland,Slovakia,E,0,0,1
+Spain,Sweden,E,0,1,0
+Hungary,Portugal,F,0,0,1
+France,Germany,F,1,0,0
+Finland,Russia,B,0,0,1
+Turkey,Wales,A,0,0,1
+Italy,Switzerland,A,1,0,0
