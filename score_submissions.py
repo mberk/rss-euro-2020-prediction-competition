@@ -43,7 +43,10 @@ def score_submissions(path_to_submissions_file: str, path_to_match_results_file:
         df['p_team1_win'] = df['p_team1_win'] / df[['p_team1_win', 'p_team2_win', 'p_draw']].sum(axis=1)
         df['p_team2_win'] = df['p_team2_win'] / df[['p_team1_win', 'p_team2_win', 'p_draw']].sum(axis=1)
         df['p_draw'] = df['p_draw'] / df[['p_team1_win', 'p_team2_win', 'p_draw']].sum(axis=1)
-        score = -(np.log(df['p_team1_win']) * df['team1_win'] + np.log(df['p_draw']) * df['draw'] + np.log(df['p_team2_win']) * df['team2_win']).sum()
+        df_group = df[df['Group'] != 'Knockout']
+        df_ko = df[df['Group'] == 'Knockout']
+        score = -(np.log(df_group['p_team1_win']) * df_group['team1_win'] + np.log(df_group['p_draw']) * df_group['draw'] + np.log(df_group['p_team2_win']) * df_group['team2_win']).sum()
+        score += -(np.log(df_ko['p_team1_win']) * df_ko['team1_win'] + np.log(df_ko['p_team2_win']) * df_ko['team2_win']).sum()
         scores.append({'submission': anonymise_name(name), 'score': score})
 
     scores = pd.DataFrame(scores).sort_values(['score'])
