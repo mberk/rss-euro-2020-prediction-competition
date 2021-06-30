@@ -18,7 +18,7 @@
 * Entries will be scored according to the log-score
 * Each group stage game will receive the score:
 ```
--(log(p_team1_win)*I(team1_win) + log(p_draw)*I(draw) + log(p_team2_win)I(team2_win))
+-(log(p_team1_win)*I(team1_win) + log(p_draw)*I(draw) + log(p_team2_win)*I(team2_win))
 ```
 where  `I(.)` is the indicator function and e.g. `p_team1_win` is the entrant's estimate of the probability that team 1 wins the match
 * For knockout games, the outcome is based on the score after extra-time/penalties if relevant and the contribution is:
