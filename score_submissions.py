@@ -40,6 +40,7 @@ def score_submissions(path_to_submissions_file: str, path_to_match_results_file:
         df.loc[df['p_team2_win'] == 0, 'p_team2_win'] = 1e-12
         df.loc[(df['p_draw'] == 0) & (df['Group'] != 'Knockout'), 'p_draw'] = 1e-12
         # Normalise probabilities
+        df.loc[df['Group'] == 'Knockout', 'p_draw'] = 0
         df['p_team1_win'] = df['p_team1_win'] / df[['p_team1_win', 'p_team2_win', 'p_draw']].sum(axis=1)
         df['p_team2_win'] = df['p_team2_win'] / df[['p_team1_win', 'p_team2_win', 'p_draw']].sum(axis=1)
         df['p_draw'] = df['p_draw'] / df[['p_team1_win', 'p_team2_win', 'p_draw']].sum(axis=1)
